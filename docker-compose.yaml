@@ -1,0 +1,14 @@
+---
+services:
+
+  YouTrack:
+    image: jetbrains/youtrack:2025.1.64291        # Новейшая версия на момент создания файла
+    container_name: jetbrains_youtrack
+    restart: always
+    volumes:
+      - ./volumes/data:/opt/youtrack/data
+      - ./volumes/conf:/opt/youtrack/conf
+      - ./volumes/logs:/opt/youtrack/logs
+      - ./volumes/backups:/opt/youtrack/backups
+    ports:
+      - 8080:8080
