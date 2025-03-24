@@ -1,4 +1,4 @@
-# JetBrains-YouTrack-docker
+# JetBrains-YouTrack
 
 Это конфигурация для развертывания облачного хранилища YouTrack с использованием Docker Compose и локальной базой данных
 Сервис owncloud предоставляет функциональность облачного хранилища, а redis используется для кэширования и сессий.
@@ -16,10 +16,10 @@ cd /opt/docker/
 
 Клонируйте репозиторий с GitHub:
 ```bash
-git clone https://github.com/A3th3rS3t/JetBrains-YouTrack-docker.git
+git clone https://github.com/A3th3rS3t/JetBrains-YouTrack.git
 ```
 ```bash
-cd JetBrains-YouTrack-docker
+cd JetBrains-YouTrack
 ```
 В репозитории должны быть файлы `docker-compose.yaml`.
 
